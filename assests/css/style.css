@@ -14,7 +14,7 @@ main h2 {
     font-weight: 100;
     margin-top: 15px;
 }
-main button{
+#startbutton{
     color: white;
     background-color: purple;
     margin-top: 30px;
@@ -22,4 +22,7 @@ main button{
     font-size: 20px;
     border: none;
     border-radius: 5px;
+}
+#score{
+    display: none;
 }
