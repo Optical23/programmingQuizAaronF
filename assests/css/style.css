@@ -1,12 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    background-color: rgb(31, 167, 230);
 }
 main {
-    width: 50%;
+    width: 70%;
     margin: auto;
-    margin-top: 20vh;
+    margin-top: 15vh;
     text-align: center;
     height: 50vh;
 }
