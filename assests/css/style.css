@@ -4,9 +4,9 @@
     background-color: whitesmoke;
 }
 main {
-    width: 50%;
+    width: 70%;
     margin: auto;
-    margin-top: 20vh;
+    margin-top: 15vh;
     text-align: center;
     height: 50vh;
 }
@@ -14,12 +14,43 @@ main h2 {
     font-weight: 100;
     margin-top: 15px;
 }
-main button{
+.button{
     color: white;
     background-color: purple;
-    margin-top: 30px;
+    width: 100%;
+    display: block;
+    margin: 3px;
     padding: 10px;
     font-size: 20px;
     border: none;
+    text-align: left;
     border-radius: 5px;
+}
+#startbutton{
+    margin: auto;
+    margin-top: 15px;
+    width: auto;
+    text-align: center;
+}
+#score{
+    display: none;
+}
+#scoring{
+    width: fit-content;
+    height: fit-content;
+}
+
+#timerContainer{
+    position: fixed;
+    display: flex;
+    right: 0;
+    top: 0;
+    width: 15vw;
+    min-height: 10vh;
+    align-items: center;
+}
+
+#buttonContainer{
+    width: fit-content;
+    height: fit-content;
 }
