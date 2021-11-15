@@ -35,6 +35,10 @@ main h2 {
 #score{
     display: none;
 }
+#scoring{
+    width: fit-content;
+    height: fit-content;
+}
 
 #timerContainer{
     position: fixed;
