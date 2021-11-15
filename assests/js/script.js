@@ -140,6 +140,7 @@ function scoring() {
     scorescreen.appendChild(scoretext);
     scorescreen.appendChild(intialsinput);
     scorescreen.appendChild(submitbutton);
+    intialsinput.value = "";
     scorescreen.addEventListener("click", function(){
         currentinputscore = [];
         if(intialsinput.value != ""){
