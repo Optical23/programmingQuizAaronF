@@ -1,4 +1,5 @@
 # programmingQuizAaronF
+Deployed link: https://optical23.github.io/programmingQuizAaronF/
 The way I approached this project was to have containers with content inside them for each stage of the quiz. 
 Mainly the start page, questions page, the savescore page and the highscore page, I made the start page display none when the questionpage was ready to be made.
 I had a timer function play as the game was still active.
